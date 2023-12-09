@@ -8,12 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Types\**" />
-    <EmbeddedResource Remove="Types\**" />
-    <None Remove="Types\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Reflection\NullableReflection.cs" />
   </ItemGroup>
 
